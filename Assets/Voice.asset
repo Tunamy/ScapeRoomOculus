@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae5a46bda3295124c99b0e6537ac7252, type: 3}
+  m_Name: Voice
+  m_EditorClassIdentifier: 
+  _clientAccessToken: NP32UO3SJXJM6LGAJWCFM2ZIVPJAISJI
+  _appInfo:
+    name: text_oculus
+    id: 862026298713227
+    lang: es
+    isPrivate: 0
+    createdAt: 2023-05-16T23:34:56-0700
+    trainingStatus: 1
+    lastTrainDuration: 25
+    lastTrainedAt: 2023-05-16T23:48:24-0700
+    nextTrainAt: 2023-05-16T23:47:59-0700
+    intents:
+    - id: 636484317905973
+      name: cambiar_color
+      entities:
+      - name: color:color
+        id: 189744590236754
+      - name: forma:forma
+        id: 784232459970606
+    entities:
+    - name: color
+      id: 1013408456308285
+      lookups:
+      - keywords
+      roles:
+      - name: color
+        id: 189744590236754
+      keywords:
+      - keyword: azul
+        synonyms:
+        - azul
+      - keyword: rojo
+        synonyms:
+        - rojo
+      - keyword: verde
+        synonyms:
+        - verde
+    - name: forma
+      id: 258353876601474
+      lookups:
+      - free-text
+      - keywords
+      roles:
+      - name: forma
+        id: 784232459970606
+      keywords:
+      - keyword: cubo
+        synonyms:
+        - cubo
+      - keyword: esfera
+        synonyms:
+        - esfera
+    traits:
+    - name: wit$on_off
+      id: 5367a194-1acf-4b70-84a5-6e6797469758
+      values:
+      - id: 243828343728967
+        value: off
+      - id: 336590574016714
+        value: on
+    voices:
+    - name: Cael
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Cam
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Carl
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Charlie
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - fast
+      - projected
+    - name: Cody
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Connor
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Cooper
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Prospector
+      locale: en_US
+      gender: male
+      styles:
+      - default
+    - name: Railey
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rebecca
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Remi
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rubie
+      locale: en_US
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Vampire
+      locale: en_US
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Colin
+      locale: en_CA
+      gender: male
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+    - name: Rosie
+      locale: en_CA
+      gender: female
+      styles:
+      - default
+      - soft
+      - formal
+      - fast
+      - projected
+  _configurationId: bfbef3ea-019c-416b-9ed9-12c475a45cfb
+  timeoutMS: 10000
+  endpointConfiguration:
+    uriScheme: 
+    authority: 
+    port: 0
+    witApiVersion: 
+    speech: 
+    message: 
+    dictation: 
+  isDemoOnly: 0
+  useConduit: 1
+  _manifestLocalPath: ConduitManifest-ca7840a1-95af-4023-802b-8694c40fc02d.json
+  excludedAssemblies: []
+  relaxedResolution: 0
